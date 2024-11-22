@@ -1,0 +1,104 @@
+.navbar{
+    display: flex;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    align-items: center;
+}
+.logo{
+   width: 55px; 
+}
+
+.dropdown{
+    position: relative;
+    margin: 15px;
+    display: flex;
+    column-gap: 10px;
+    
+}
+.dropdown .button{
+    border: none;
+    font-size: 16px;
+    outline: none;
+    margin: 2px 2px;
+    padding: 2px;
+    background-color: white;
+    cursor: pointer;
+}
+.menu{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 1%;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu a{
+    color:white;
+    text-decoration:none;
+}
+.searchbar{
+    position: relative;
+    width: 200px;
+    margin: 20px;
+    
+}
+.search{
+   width: 100%;
+   padding: 10px;
+   border-radius: 25px;
+   font-style: italic;
+   outline: none;
+   font-size: 15px;
+   box-sizing: border-box;
+}
+.submit{
+   position: absolute;
+   right: 10px;
+   top: 30%;
+   background-color: transparent;
+   border: none;
+}
+.icons{
+    display: flex;
+    font-size: 16px;
+    column-gap: 10px;
+    margin-left: 20%;
+}
+.user {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin:20px;
+    gap:0px;
+    
+    
+}
+
+.SignUp{
+   right:1%;
+        display: inline-block;
+        background-color: #28a745;
+        color:white;
+        border-radius: 25px;
+        padding: 10px 35px 10px 20px;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        position: relative;
+}
+.LogIn{
+        display: inline-block;
+        left: 91%; 
+        background-color: #b1d7ba;
+        color:black;
+        border-radius: 25px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        position:absolute;
+}
+
+
+
